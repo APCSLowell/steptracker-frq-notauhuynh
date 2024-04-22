@@ -21,10 +21,10 @@ public class StepTracker
   public int activeDays(){
    return activeDaysCount;
   }
-  public int averageSteps(){
+  public double averageSteps(){
     if(days == 0){
-      return 0;
+      return 0.0;
     }
-    return totalSteps/days;
+    return (double)totalSteps/days;
   }
 } 
