@@ -13,7 +13,7 @@ public class StepTracker
   }
   public double addDailySteps(int todaySteps){
    days++;
-   totalsteps = totalSteps + todaySteps;
+   totalSteps = totalSteps + todaySteps;
    if(todaySteps >= minSteps){
     activeDaysCount++;
    }
